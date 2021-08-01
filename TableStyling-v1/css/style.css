@@ -6,20 +6,16 @@ body {
 table {
     border-collapse: collapse;
     text-align: left;
-    margin: auto;
+    margin: 2rem auto;
     width: 50%;
 }
 
 th, td {
-    padding: 5px 50px 5px 10px;
+    padding: 8px 50px 8px 10px;
 }
 
 tr:nth-child(odd) {
     background-color: #EEEEEE;
-}
-
-tr:last-child {
-    border-bottom: 3px solid #FFB740;
 }
 
 .nameTable th {
@@ -27,3 +23,15 @@ tr:last-child {
     color: #FFF;
 }
 
+.nameTable tr:last-child {
+    border-bottom: 3px solid #FFB740;
+}
+
+.productTable th {
+    background-color: #64C9CF;
+    color: #FFF;
+}
+
+.productTable tr:last-child {
+    border-bottom: 3px solid #64C9CF;
+}
