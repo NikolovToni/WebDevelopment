@@ -1,0 +1,29 @@
+body {
+    font-family: Verdana, sans-serif;
+    font-size: 16px;
+}
+
+table {
+    border-collapse: collapse;
+    text-align: left;
+    margin: auto;
+    width: 50%;
+}
+
+th, td {
+    padding: 5px 50px 5px 10px;
+}
+
+tr:nth-child(odd) {
+    background-color: #EEEEEE;
+}
+
+tr:last-child {
+    border-bottom: 3px solid #FFB740;
+}
+
+.nameTable th {
+    background-color: #FFB740;
+    color: #FFF;
+}
+
